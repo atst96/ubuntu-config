@@ -39,5 +39,8 @@
 
     // PHP config
     "php.executablePath": "/usr/bin/php",
-    "php.suggest.basic": false
+    "php.suggest.basic": false,
+    "php.validate.enable": true,
+    "php.validate.executablePath": "/usr/bin/php",
+    "php.validate.run": "onSave",
 }
